@@ -165,7 +165,7 @@ label {
   transition-timing-function: linear;
 }
 
-/* line 101, ../sass/main.scss */
+/* line 94, ../sass/main.scss */
 .passwordWrapper::after {
   content: "";
   display: block;
@@ -173,10 +173,14 @@ label {
   float: none;
 }
 
-/* line 108, ../sass/main.scss */
+/* line 102, ../sass/main.scss */
 .error .strengthIndicator::before {
   width: 10%;
   background-color: #d9534f;
+}
+/* line 107, ../sass/main.scss */
+.error .feedback.error {
+  display: block;
 }
 
 /* line 113, ../sass/main.scss */
@@ -184,29 +188,22 @@ label {
   width: 60%;
   background-color: #f0ad4e;
 }
-
 /* line 118, ../sass/main.scss */
-.success .strengthIndicator::before {
-  width: 100%;
-  background-color: #5cb85c;
-}
-
-/* line 123, ../sass/main.scss */
-.feedback.error, .feedback.warning, .feedback.success {
-  display: none;
-}
-
-/* line 127, ../sass/main.scss */
-.error .feedback.error {
-  display: block;
-}
-
-/* line 131, ../sass/main.scss */
 .warning .feedback.warning {
   display: block;
 }
 
-/* line 135, ../sass/main.scss */
+/* line 124, ../sass/main.scss */
+.success .strengthIndicator::before {
+  width: 100%;
+  background-color: #5cb85c;
+}
+/* line 129, ../sass/main.scss */
 .success .feedback.success {
   display: block;
+}
+
+/* line 134, ../sass/main.scss */
+.feedback.error, .feedback.warning, .feedback.success {
+  display: none;
 }
